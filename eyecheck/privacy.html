@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Eye Test &amp; Eye Exercises</title>
+<meta name="description" content="Eye Test &amp; Eye Exercises's privacy policy.">
+<link rel="icon" href="assets/img/icon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <img src="assets/img/icon.png" alt="Eye Test &amp; Eye Exercises icon">
+      Eye Test &amp; Eye Exercises Privacy Policy
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<div class="legal-header">
+  <div class="container">
+    <p class="legal-meta">Effective date: 20 October 2026 · App: Eye Test &amp; Eye Exercises (com.kurtsoft.eyecheck) · Developer: Kurtsoft Yazılım ve Teknoloji A.Ş., Türkiye</p>
+  </div>
+</div>
+
+<div class="legal-body">
+<h1>Privacy Policy for Eye Test &amp; Eye Exercises</h1>
+<p>
+  This policy explains what Eye Test &amp; Eye Exercises (package <code>com.kurtsoft.eyecheck</code>) does with your
+  information. It applies to the Android app distributed through Google Play.
+</p>
+
+<h2>Information the app collects</h2>
+<p>
+  The app has no account and no sign-in. Everything you measure is written to a database inside the
+  app's own private storage on your device.
+</p>
+<table class="perms">
+  <tr><th>What</th><th>Where it is kept</th><th>Does it leave your device?</th></tr>
+  <tr><td>Screening results: the category (no finding / mild / marked), the test, which eye, the date, and whether you wore glasses or lenses</td><td>On your device only</td><td><strong>No. Never.</strong></td></tr>
+  <tr><td>Profile: the name you type, whether it is an adult or child profile, and an optional birth year</td><td>On your device only</td><td>No</td></tr>
+  <tr><td>Exercise sessions, plans, reminder times and your streak</td><td>On your device only</td><td>No</td></tr>
+  <tr><td>PDF reports you create</td><td>On your device, in the app's private storage</td><td>Only if you share one yourself</td></tr>
+  <tr><td>Settings: language, theme, reminder schedule, privacy choice</td><td>On your device</td><td>Only through Android's own device backup to your Google account, if you have it switched on. Screening results, profiles, exercise history and reports are excluded from that backup.</td></tr>
+  <tr><td>Backup file you create with Pro: your results, profiles, sessions, plans and settings</td><td>Wherever you choose to save it</td><td>Only if you save it to a cloud location yourself. The app never uploads it.</td></tr>
+  <tr><td>Camera frames used to measure your distance to the screen</td><td>Held in memory while a measurement runs</td><td>No. Frames are never written to storage and never uploaded.</td></tr>
+  <tr><td>Usage events associated with an app-instance identifier, for example "a screening was completed" or "a routine was finished"</td><td>Google Firebase Analytics</td><td>Yes, only while analytics is switched on</td></tr>
+  <tr><td>Crash and error diagnostics: stack trace, device model, Android version</td><td>Firebase Crashlytics</td><td>Yes, only while crash reporting is switched on</td></tr>
+  <tr><td>Subscription status</td><td>RevenueCat and Google Play Billing</td><td>Yes, when you buy or restore a subscription</td></tr>
+  <tr><td>Advertising ID, IP address, general device information and how you interact with ads</td><td>Google AdMob</td><td>Yes, in the free version, when an ad is requested or shown. Never with Pro.</td></tr>
+</table>
+<p>
+  Usage events never carry a measurement. No raw value and no result category is attached to any
+  event, so the analytics data cannot describe how you scored. The app never sets a user identifier,
+  and your profile name and birth year are never sent anywhere. Ad events record only the action and
+  the ad format, for example "a banner was shown".
+</p>
+
+<h2>Permissions and why they are needed</h2>
+<table class="perms">
+  <tr><th>Permission</th><th>Why</th><th>If you refuse</th></tr>
+  <tr><td><code>CAMERA</code></td><td>Measures how far your face is from the screen, and counts blinks during the blink check. Processing happens on the device, frame by frame, in memory.</td><td>The tests that need a distance measurement stay locked. Everything else works.</td></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td><td>Shows the break and plan reminders you schedule yourself. It is requested the first time you switch reminders on, not at first launch. The app does not use exact alarms, so a reminder can arrive a few minutes after the time you picked while the device is asleep.</td><td>Reminders stay off. Nothing else changes.</td></tr>
+  <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Re-schedules your reminders after the phone restarts or the app is updated, because the system clears pending alarms then.</td><td>Not applicable; this permission is granted automatically and is not user-facing.</td></tr>
+</table>
+<p>
+  The Google Mobile Ads SDK also adds the advertising ID permission
+  (<code>com.google.android.gms.permission.AD_ID</code>) and the Android ad services permissions
+  (<code>ACCESS_ADSERVICES_AD_ID</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code>,
+  <code>ACCESS_ADSERVICES_TOPICS</code>) for ad delivery and measurement. They are granted at install
+  and are never shown as a prompt. You can reset or delete your advertising ID at any time in your
+  device's Google settings.
+</p>
+<p>The app requests no location, contacts, microphone, or file access permission.</p>
+
+<h2>Data sent off your device</h2>
+<p><strong>Your screening results never leave your device.</strong> There is no cloud sync, no
+  server-side account, and no upload of measurements, camera frames, or reports.</p>
+<p>The following services use the network:</p>
+<ul>
+  <li><strong>Usage events and crash reports</strong>, controlled separately by the analytics and crash-reporting switches in Settings under Privacy.</li>
+  <li><strong>Subscription checks.</strong> When you open the subscription screen, buy Pro, or
+    restore a purchase, the app talks to Google Play and RevenueCat to find out what you are
+    entitled to.</li>
+  <li><strong>Update checks.</strong> When the app comes to the foreground it asks Firebase Remote
+    Config whether a newer version has been published. The request carries an installation
+    identifier and general device and app information; it sends nothing you entered and no
+    measurement.</li>
+  <li><strong>Ads in the free version.</strong> Google AdMob requests and shows ads and receives the
+    advertising ID, IP address, general device information and ad interactions. It never receives a
+    screening result, a profile name or a birth year. With Pro no ad is requested.</li>
+  <li><strong>Ad privacy choices.</strong> Google User Messaging Platform contacts Google to obtain consent requirements and present any required form. Ad availability follows the consent state returned by that service.</li>
+</ul>
+<p>
+  In the European Economic Area and the United Kingdom, analytics and crash reporting start
+  <strong>off</strong>. A one-time screen during setup asks whether you want to turn them on, and
+  declining is offered exactly as prominently as accepting. Declining sends no event at all.
+  Elsewhere they start on and can be switched off at any time in Settings under Privacy.
+</p>
+<p>
+  Ad consent is a separate choice. In the European Economic Area, the United Kingdom and
+  Switzerland, Google's consent form asks before any ad is requested, and you can review or withdraw
+  that choice at any time in Settings under Privacy, "Ad privacy choices". If consent is not given,
+  the app follows Google's returned consent state and requests ads only when that state permits it. The form and available choices depend on region and Google's configured messages.
+</p>
+
+<h2>Advertising</h2>
+<p>
+  The free version shows ads served by Google AdMob: a full-screen ad when the app opens or returns
+  from the background, a banner above the bottom navigation, a medium rectangle on the Measure, Plan
+  and Exercise tabs, and occasionally a full-screen ad after an exercise session or when you leave a
+  result screen. Ads never appear during a measurement, on a result, invalid-measurement, report or
+  clinician screen, on the paywall or during setup. Ad sound is muted and ad content is limited to
+  Google's "Teen" rating or lower.
+</p>
+<p>
+  Pro is a monthly or annual subscription. It adds six more measurements, your full history with
+  charts, the PDF report, backup and transfer to a new device, the longer exercise routines, and
+  removes all ads. Trial availability and duration depend on eligibility and the offer shown by Google Play; the four core tests and the free exercises stay free. With Pro no ad is requested
+  at all. Purchases are handled by Google Play.
+</p>
+
+<h2>Third-party services</h2>
+<table class="perms">
+  <tr><th>Service</th><th>What it receives</th><th>Their policy</th></tr>
+  <tr><td>Google Firebase Analytics</td><td>Usage events associated with an app-instance identifier, and general device and app information. No measurement result, no profile name, no birth year.</td><td><a class="link" href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
+  <tr><td>Firebase Crashlytics</td><td>Crash stack traces, device model, Android version, and app version.</td><td><a class="link" href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
+  <tr><td>Firebase Remote Config</td><td>An installation identifier and general device and app information, in exchange for the published version numbers. No measurement result, no profile name, no birth year.</td><td><a class="link" href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
+  <tr><td>RevenueCat</td><td>An anonymous subscriber identifier and your purchase and subscription status.</td><td><a class="link" href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td></tr>
+  <tr><td>Google Play Billing</td><td>Handles the purchase itself. Payment details are entered in Google Play and are never seen by this app.</td><td><a class="link" href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+  <tr><td>Google AdMob (Google Mobile Ads SDK)</td><td>The advertising ID, IP address, general device and app information, and ad interactions such as views and clicks, used to deliver, limit and measure ads and to prevent fraud. No measurement result, no profile name, no birth year.</td><td><a class="link" href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></td></tr>
+  <tr><td>Google User Messaging Platform</td><td>Shows the ad consent form where the law requires one and stores your choice on the device.</td><td><a class="link" href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+</table>
+
+<h2>Data retention and deletion</h2>
+<p>
+  Measurements, profiles, exercise history, plans and reports stay on your device until you remove
+  them. Settings contains a <strong>Delete all data</strong> action that clears the active profile's screening results and exercise sessions, clears plans and saved PDF reports, and disables reminders. Screening results and exercise sessions belonging to other profiles remain. This action does not remove profile names or every setting. Uninstalling removes app-private local data; any reports or backup files you previously exported must be deleted separately from their destination.
+</p>
+<p>
+  Because none of that is on a server, there is nothing for us to delete on your behalf and no server-side copy of your screening history to export. Analytics and crash data held by Google are subject to the applicable Firebase retention settings and policies. You can stop future analytics and crash collection using their separate switches in Settings; this does not itself erase records already stored by a service. Remote Config update checks are separate from these switches. Purchase records are held by Google Play and RevenueCat for as long as they need them to
+  service the subscription. Advertising data held by Google is governed by Google's own retention policies. Resetting or deleting your advertising ID changes its availability for future use; it does not itself request deletion of data already held by Google.
+</p>
+
+<p>For local deletion steps, exported files and service-held data, see <a class="link" href="data-deletion.html">Data Deletion</a>.</p>
+
+<h2>Children's privacy</h2>
+<p>
+  The app is a general-audience health and fitness app and is not directed at children under 13.
+</p>
+<p>
+  It does include a child profile so that a parent can run a screening for their child. That profile
+  stores only the name and, optionally, the birth year typed by the parent, and it stays on the
+  device with everything else. Child profile names, birth years and screening results are not sent to our services. The network services described above may still receive device identifiers and technical data; using a child profile does not disable advertising or change the ad consent configuration. A child profile should be
+  set up and used with a parent or guardian present. Ads in the free version are the same whichever
+  profile is active and are limited to Google's "Teen" content rating; nothing about the child
+  profile is passed to the ad network.
+</p>
+
+<h2>Security</h2>
+<p>
+  Content you create stays in the app's private storage on your device, which other apps cannot
+  read. Network requests use HTTPS. No system is perfectly secure, so we cannot guarantee absolute
+  protection of information transmitted over the internet.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If this policy changes, the updated version is published at this same address with a new "last
+  updated" date. Material changes will also be noted in the app's release notes.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this policy or your data: <a class="link" href="mailto:support@kurtsoft.com.tr">support@kurtsoft.com.tr</a>
+</p>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="brand">
+          <img src="assets/img/icon.png" alt="Eye Test &amp; Eye Exercises icon">
+          Eye Test &amp; Eye Exercises
+        </div>
+        <div>com.kurtsoft.eyecheck</div>
+      </div>
+      <div class="foot-links">
+        <div>
+          <h4>App</h4>
+          <a href="https://play.google.com/store/apps/details?id=com.kurtsoft.eyecheck">Store listing</a>
+          <a href="support.html">Support</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="data-deletion.html">Data Deletion</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      © 2026 Kurtsoft Yazılım ve Teknoloji A.Ş. · <a class="link" href="mailto:support@kurtsoft.com.tr">support@kurtsoft.com.tr</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
